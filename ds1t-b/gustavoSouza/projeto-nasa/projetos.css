@@ -1,0 +1,26 @@
+.projetos{
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 64px;
+    box-shadow: inset 0px -40px 40px black;
+    
+}
+.titulo-projetos{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Wallpoet', cursive;
+    color: red;
+}
+.text-projetos1{
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.projetos-conteudo{
+    display: flex;
+}
+.homem-lua{
+    width: 319px;
+    height: 243px;
+}

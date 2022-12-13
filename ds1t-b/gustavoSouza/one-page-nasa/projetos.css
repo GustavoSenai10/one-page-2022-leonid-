@@ -1,0 +1,59 @@
+.projetos{
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 64px;
+    background-image: url(./img/backgraud.jpg);
+    box-shadow: inset 0px -40px 40px black;
+    
+}
+.titulo-projetos{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Wallpoet', cursive;
+    color: red;
+}
+.projetos-conteudo{
+    display: flex;
+    flex-direction: column;
+}
+.text-projetos1{
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    gap: 10px;
+}
+
+.homem-lua{
+    width: 319px;
+    height: 243px;
+}
+.text-projetos2{
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+}
+.artemis{
+    width: 319px;
+    height: 243px;
+    
+}
+.text-projetos3{
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: start;
+    gap: 20px;
+}
+.telescópio{
+    width: 319px;
+    height: 243px;
+
+}

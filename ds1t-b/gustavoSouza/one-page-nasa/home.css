@@ -1,0 +1,18 @@
+.home{
+    background-image: url(./img/homeW.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48%;
+    width: 100%;
+    box-shadow: inset 0px -40px 40px black;
+}
+@media(max-width:460px){
+    .home{
+        background-image: url(./img/b.png);
+        
+    }
+}

@@ -1,0 +1,29 @@
+.sobre-nós{
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-rows: auto 2fr;
+    gap: 64px;
+    background-image: url(./img/backgraud.jpg);
+    box-shadow: inset 0px -40px 40px black;
+    
+    
+}
+.titulo-Sobre-nós{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Wallpoet', cursive;
+    color: white;
+}
+.sobre-nós-conteudo{
+    display: flex;
+}
+.sobre_img{
+    width: 600px;
+    height: 500px;
+}
+.text-sobre-nós{
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}

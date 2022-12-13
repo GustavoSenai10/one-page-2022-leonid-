@@ -1,0 +1,16 @@
+.menu{
+    display: flex;
+    gap: 72px;
+    font-size: 1.25rem;
+    align-items: center;
+}
+.menu li{
+    border-bottom: 4px solid transparent;
+    transition: border-color 5.s;
+}
+.menu:houver{
+    border-color: red;
+}
+@media(max-width:460px){
+    
+}
